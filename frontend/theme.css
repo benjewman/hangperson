@@ -142,20 +142,35 @@ img {
     color:rgba(35, 141, 41, 0.966);
 }
 #delete-button{
-    border-color: rgba(35, 141, 41, 0.966);
+    background: transparent;
+    border: none;
     padding: 7px;
     border-radius:5px;
     color:rgba(35, 141, 41, 0.966);
 }
+#delete-button:hover{
+    color: rgba(35, 141, 41, 0.966);
+    background:  rgba(94, 224, 34, 0.664)
+}
+#reset-button:hover{
+    color: rgba(35, 141, 41, 0.966);
+    background:  rgba(94, 224, 34, 0.664)
+}
+#change-player:hover{
+    color: rgba(35, 141, 41, 0.966);
+    background:  rgba(94, 224, 34, 0.664)
+}
 #reset-button{
-    border-color: rgba(35, 141, 41, 0.966);
+    background: transparent;
+    border: none;
     padding: 7px;
     border-radius:5px;
     color:rgba(35, 141, 41, 0.966);
 }
 
 #change-player{
-    border-color: rgba(35, 141, 41, 0.966);
+    background: transparent;
+    border: none;
     padding: 7px;
     border-radius:5px;
     color:rgba(35, 141, 41, 0.966);
@@ -166,3 +181,17 @@ button[disabled]{
   background-color: black;
   color: black;
 }
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pics/image.jpg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    opacity: 0.3;
+    filter:alpha(opacity=100);
+}
+

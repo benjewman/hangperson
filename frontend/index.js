@@ -168,7 +168,7 @@ function deleteButton() {
 function deletePlayer() {
     fetch(`http://localhost:3000/players/${currentPlayerId}`, { method: 'DELETE'})
     .then(resp => resp.json())
-    .then(window.location.reload())
+    .then(()=> window.location.reload())
 }
 
 function showGame() {
