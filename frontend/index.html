@@ -12,7 +12,7 @@
         <title>Hangperson Game</title>
         
     </head>
-    <body>
+    <body >
         <div id="background"></div>
         
         <h1 id='title'class="mx-auto" style="width: 300px;">Hangperson</h1>
@@ -23,18 +23,18 @@
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             </div>
+            <form id="player-form" class="mx-auto" style="width: 300px;">
+                <input type="text" id="player-name">
+                <input type="submit" value="Create Player">
+            </form>   
         </div>
 
         <!--make div for form insertion-->
     
-        <form id="player-form" class="mx-auto" style="width: 300px;">
-            <input type="text" id="player-name">
-            <input type="submit" value="Create Player">
-        </form>   
 
         <div id="game">
 
-            <div id="player-stats">
+            <div class='border border-success rounded-lg' id="player-stats">
             </div>
             
             <div class="mx-auto hangman reset-my-body" style="width: 300px">
